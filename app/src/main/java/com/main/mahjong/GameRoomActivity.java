@@ -192,8 +192,8 @@ public class GameRoomActivity extends Activity implements OnSocketRecieveCallBac
         setContentView(R.layout.activity_game_room);
 
         //测试按钮
-        testBtn=(Button) findViewById(R.id.test_btn);
-        listOppositeCard= (LinearLayout)findViewById(R.id.opposite_player);
+        //testBtn=(Button) findViewById(R.id.test_btn);
+        //listOppositeCard= (LinearLayout)findViewById(R.id.opposite_player);
 
         //入座情况
         selfSeat=(Button) findViewById(R.id.self_seat);
@@ -245,13 +245,13 @@ public class GameRoomActivity extends Activity implements OnSocketRecieveCallBac
         //int createTime = sp.getInt("createTime", 0);
 
 
-        testBtn.setOnClickListener(new View.OnClickListener() {
+        /*testBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setMyActiveCards("[13,15,16,11,22]");
                 displayCardsList(myActiveCards,listOppositeCard,false);
             }
-        });
+        });*/
 
 
 
