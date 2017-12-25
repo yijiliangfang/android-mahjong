@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:background="#000000"
+              android:alpha="0.6"
+              android:orientation="horizontal">
+
+
+
+    <!-- 定义一个竖直方向的LinearLayout,把QQ呢称与说说的文本框设置出来 -->
+
+
+        <TextView
+            android:id="@+id/rId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333"
+            android:padding="15px"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/baseScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:padding="15px"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/roundNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:padding="15px"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/currentNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/playerNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="right" >
+        <Button
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:id="@+id/invite_friend"
+            android:layout_marginLeft="6sp"
+            android:focusable="false"
+            android:background="@drawable/enter_room"/>
+    </LinearLayout>
+</LinearLayout>

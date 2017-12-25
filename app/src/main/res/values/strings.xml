@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">大同麻将</string>
+    <string name="top_warning">健康游戏忠告：抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防上当受骗，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活。</string>
+    <string name="bottom_description">公安备：11000002018号 文网文：[2018]1236-562 ICP：京11011223 文网游备字[2016]J-CMD990号 软著：2015SR101235\n著作权人：北京一个小游戏科技有限公司</string>
+    <!--访问接口设置-->
+    <string name="get_user_url">http://www.zuimeicun.com/test.php?name=getUser&amp;model=1</string>
+    <string name="get_room_url">http://www.zuimeicun.com/test.php?name=getListRoom&amp;model=1</string>
+    <!--牌型文字，后期如果自定义控件或背景图可修改该配置-->
+    <string-array name="cards">
+        <item>11|一万</item>
+        <item>12|二万</item>
+        <item>13|三万</item>
+        <item>13|三万</item>
+        <item>14|四万</item>
+        <item>15|五万</item>
+        <item>16|六万</item>
+        <item>17|七万</item>
+        <item>18|八万</item>
+        <item>19|九万</item>
+
+        <item>21|幺鸡</item>
+        <item>22|二条</item>
+        <item>23|三条</item>
+        <item>24|四条</item>
+        <item>25|五条</item>
+        <item>26|六条</item>
+        <item>27|七条</item>
+        <item>28|八条</item>
+        <item>29|九条</item>
+
+        <item>31|幺蛋</item>
+        <item>32|二饼</item>
+        <item>33|三饼</item>
+        <item>34|四饼</item>
+        <item>35|五饼</item>
+        <item>36|六饼</item>
+        <item>37|七饼</item>
+        <item>38|八饼</item>
+        <item>39|九饼</item>
+
+        <item>41|东</item>
+        <item>42|南</item>
+        <item>43|西</item>
+        <item>44|北</item>
+        <item>51|中</item>
+        <item>52|白</item>
+        <item>53|发</item>
+
+        <item>61|春</item>
+        <item>62|夏</item>
+        <item>63|秋</item>
+        <item>64|冬</item>
+        <item>65|梅</item>
+        <item>66|兰</item>
+        <item>67|竹</item>
+        <item>68|菊</item>
+
+    </string-array>
+
+    <!--玩家操作动作项-->
+    <string-array name="action">
+        <item>peng|碰</item>
+        <item>chi|吃</item>
+        <item>hu|和</item>
+        <item>gang|杠</item>
+        <item>mo pai|摸牌</item>
+        <item>play-cards|出牌</item>
+        <item>zi mo|自摸</item>
+        <item>guo|过</item>
+    </string-array>
+</resources>

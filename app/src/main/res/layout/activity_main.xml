@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.main.mahjong.MainActivity"
+    android:background="@drawable/mainbackground">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topPanel"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/top_warning"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:background="#e0332211"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        />
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/login_button"
+    android:visibility="gone"
+    android:background="@drawable/visitor_login"
+    android:layout_marginBottom="30sp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/basic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/basic"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        android:text="@string/bottom_description"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:background="#e0332211"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        />
+    <!--网络状况,数据加载等提示-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="加载中..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
