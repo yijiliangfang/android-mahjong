@@ -273,7 +273,7 @@ public class GameRoomActivity extends Activity implements OnSocketRecieveCallBac
 
         Log.v("playerTag", "##  发送玩家托管成功："+sendRoboterJsonReq);
     }
-    //dddddddd
+
     /* 再次换新界面的时候重连
      *  {
         "cmdtype":"sockreq",
